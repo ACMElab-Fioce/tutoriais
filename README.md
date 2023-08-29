@@ -11,7 +11,7 @@ https://github.com/ACMElab-Fioce/tutoriais/issues/1 BaseSpace CLI Tutorial
 
 ## 🔨 Dê uma checada no repositório (se for inserir um novo, favor preencher o Repo 🥶)
 
-> Dummy dataset para a análise simplificada pelo software Nextclade [#nextclade_customization](git@github.com:ACMElab-Fioce/nextclade_customization.git). [@pdrmglc]
+> Dummy dataset para a análise simplificada pelo software Nextclade [#nextclade_customization](https://github.com/ACMElab-Fioce/nextclade_customization.git). [@pdrmglc]
 
 > Produção de códigos do Redcap para planilha excel [#VigSind Code XLSX](https://github.com/ACMElab-Fioce/VigSindExc.git). [allyssonallan][AlysonS4ntos]
 
