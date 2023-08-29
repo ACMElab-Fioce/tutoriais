@@ -10,7 +10,9 @@ https://github.com/ACMElab-Fioce/tutoriais/issues/1 BaseSpace CLI Tutorial
 
 ## 🔨 Dê uma checada no repositório (se for inserir um novo, favor preencher o Repo 🥶)
 
-> Heatmap para visualizar mutações para diferentes linhagens de SARS-CoV-2 [#ACMElab-Fioce/heatmap](https://github.com/ACMElab-Fioce/heatmap.git). [@cleberaksenen]
+> Produção de códigos do Redcap para planilha excel [#VigSind Code XLSX](https://github.com/ACMElab-Fioce/VigSindExc.git). [allyssonallan][AlysonS4ntos]
+
+> Heatmap para visualizar mutações para diferentes linhagens de SARS-CoV-2 [#heatmap](https://github.com/ACMElab-Fioce/heatmap.git). [@cleberaksenen]
 
 > Testes do viral-flow para artigos [#Viral-flow testes](https://github.com/ACMElab-Fioce/ViralFlow-testes.git). [@cleberaksenen][@pdrmglc]
 
