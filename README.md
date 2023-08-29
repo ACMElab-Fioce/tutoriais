@@ -8,7 +8,7 @@ Série de tutoriais para ajudarmos o coleguinha do lado
 https://github.com/ACMElab-Fioce/tutoriais/issues/1 BaseSpace CLI Tutorial
 
 
-## 🔨 Dê uma checada no repositório (se for inserir um novo, favor preencher o Repo 🥶]
+## 🔨 Dê uma checada no repositório (se for inserir um novo, favor preencher o Repo 🥶)
 
 > Heatmap para visualizar mutações para diferentes linhagens de SARS-CoV-2 [#ACMElab-Fioce/heatmap](https://github.com/ACMElab-Fioce/heatmap.git). [@cleberaksenen]
 
@@ -46,6 +46,6 @@ https://github.com/ACMElab-Fioce/tutoriais/issues/1 BaseSpace CLI Tutorial
 
 > Raspador de PDF [#PDFscrapper](https://github.com/ACMElab-Fioce/PDFmanipHSJ.git). [@suzana-porto]
 
-> Raspador do Vacine já [Vacine scrapper](https://github.com/ACMElab-Fioce/pdfmanipulator_vacineja.git). [@suzana-porto][@cleberaksenen]
+> Raspador do Vacine já [#Vacine scrapper](https://github.com/ACMElab-Fioce/pdfmanipulator_vacineja.git). [@suzana-porto][@cleberaksenen]
 
-> Painel Acme: utilitários para o ACME lab [PainelAcme](https://github.com/ACMElab-Fioce/PainelAcme.git). [suzana-porto]
+> Painel Acme: utilitários para o ACME lab [#PainelAcme](https://github.com/ACMElab-Fioce/PainelAcme.git). [suzana-porto]
