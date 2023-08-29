@@ -1,5 +1,6 @@
 # 🏁 repositórios e tutoriais - acmelab
-Série de tutoriais para ajudarmos o coleguinha do lado
+
+Lista de links de repositórios distribuídos ao longo do git do ACMElab e tutoriais para ajudar a entender os principais programas.
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
