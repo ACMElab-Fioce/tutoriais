@@ -8,6 +8,8 @@ Lista de links de repositórios distribuídos ao longo do git do ACMElab e tutor
 
 https://github.com/ACMElab-Fioce/tutoriais/issues/1 BaseSpace CLI Tutorial
 
+https://github.com/ACMElab-Fioce/tutoriais/issues/2 CustomNextcladeLite tutorial
+
 
 ## 🔨 Dê uma checada no repositório (se for inserir um novo, favor preencher o Repo 🥶)
 
