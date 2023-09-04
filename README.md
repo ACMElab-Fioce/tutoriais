@@ -15,9 +15,11 @@ https://github.com/ACMElab-Fioce/tutoriais/issues/3 Heatmap tutorial
 
 ## 🔨 Dê uma checada no repositório (se for inserir um novo, favor preencher o Repo 🥶)
 
+> Desenho de primers e sondas para HPV usando múltiplos programas [#HPVPrimersSondas](https://github.com/ACMElab-Fioce/HPVprimersprobes.git). [@allyssonallan]
+
 > Dummy dataset para a análise simplificada pelo software Nextclade [#nextclade_customization](https://github.com/ACMElab-Fioce/nextclade_customization.git). [@pdrmglc]
 
-> Produção de códigos do Redcap para planilha excel [#VigSind Code XLSX](https://github.com/ACMElab-Fioce/VigSindExc.git). [allyssonallan][AlysonS4ntos]
+> Produção de códigos do Redcap para planilha excel [#VigSind Code XLSX](https://github.com/ACMElab-Fioce/VigSindExc.git). [@allyssonallan][@AlysonS4ntos]
 
 > Heatmap para visualizar mutações para diferentes linhagens de SARS-CoV-2 [#heatmap](https://github.com/ACMElab-Fioce/heatmap.git). [@cleberaksenen]
 
