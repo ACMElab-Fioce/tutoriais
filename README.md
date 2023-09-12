@@ -12,6 +12,8 @@ https://github.com/ACMElab-Fioce/tutoriais/issues/2 CustomNextcladeLite tutorial
 
 https://github.com/ACMElab-Fioce/tutoriais/issues/3 Heatmap tutorial
 
+https://github.com/ACMElab-Fioce/tutoriais/issues/4 Entrando no cluster Carlos Chagas
+
 
 ## 🔨 Dê uma checada no repositório (se for inserir um novo, favor preencher o Repo 🥶)
 
