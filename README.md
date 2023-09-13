@@ -7,13 +7,10 @@ Lista de links de repositórios distribuídos ao longo do git do ACMElab e tutor
 ## 🚧 Dê uma checada na aba Issues 🚧
 
 https://github.com/ACMElab-Fioce/tutoriais/issues/1 BaseSpace CLI Tutorial
-
 https://github.com/ACMElab-Fioce/tutoriais/issues/2 CustomNextcladeLite tutorial
-
 https://github.com/ACMElab-Fioce/tutoriais/issues/3 Heatmap tutorial
-
 https://github.com/ACMElab-Fioce/tutoriais/issues/4 Entrando no cluster Carlos Chagas
-
+https://github.com/ACMElab-Fioce/tutoriais/issues/5 Opentrons passo a passo
 
 ## 🔨 Dê uma checada no repositório (se for inserir um novo, favor preencher o Repo 🥶)
 
