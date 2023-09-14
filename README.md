@@ -40,7 +40,7 @@ https://github.com/ACMElab-Fioce/tutoriais/issues/5 Opentrons passo a passo
 
 > Analises com python e R [#PyRAnalytics](https://github.com/ACMElab-Fioce/PyRAnalytics.git). [@cleberaksenen]
 
-> Central de acesso e automatização de protocolos de sequenciamento (RPIP e RVOP) [#SeqHub](https://github.com/ACMElab-Fioce/SeqHub.git). [@cleberaksenen][@pdrmglc]
+> Central de acesso e automação de protocolos de sequenciamento (RPIP e RVOP) [#SeqHub](https://github.com/ACMElab-Fioce/SeqHub.git). [@cleberaksenen][@pdrmglc]
 
 > Manipulador e transformador de sequências FASTA de maneira hábil e automática [#FASTACraft](https://github.com/ACMElab-Fioce/FASTACraft.git). [@cleberaksenen]
 
