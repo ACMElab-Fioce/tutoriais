@@ -16,7 +16,7 @@ https://github.com/ACMElab-Fioce/tutoriais/issues/4 Entrando no cluster Carlos C
 
 https://github.com/ACMElab-Fioce/tutoriais/issues/5 Opentrons passo a passo
 
-https://github.com/ACMElab-Fioce/tutoriais/issues/6 Automação RVOP/RPIP
+https://github.com/ACMElab-Fioce/tutoriais/issues/6 Automação RVOP/RPIP/VSP
 
 ## 🔨 Dê uma checada no repositório (se for inserir um novo, favor preencher o Repo 🥶)
 
