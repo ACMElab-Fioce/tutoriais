@@ -65,3 +65,5 @@ https://github.com/ACMElab-Fioce/tutoriais/issues/6 Automação RVOP/RPIP/VSP
 > Raspador do Vacine já [#Vacine scrapper](https://github.com/ACMElab-Fioce/pdfmanipulator_vacineja.git). [@suzana-porto][@cleberaksenen]
 
 > Painel Acme: utilitários para o ACME lab [#PainelAcme](https://github.com/ACMElab-Fioce/PainelAcme.git). [suzana-porto]
+
+> Algoritmos de análise de dados e construção de gráficos no R [#R] (https://github.com/ACMElab-Fioce/Rscripts.git). [@cleberaksenen]
