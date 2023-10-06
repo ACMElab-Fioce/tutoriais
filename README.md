@@ -18,6 +18,8 @@ https://github.com/ACMElab-Fioce/tutoriais/issues/5 Opentrons passo a passo
 
 https://github.com/ACMElab-Fioce/tutoriais/issues/6 Automação RVOP/RPIP/VSP
 
+https://github.com/ACMElab-Fioce/tutoriais/issues/7 Automação relatório CovidSeq
+
 ## 🔨 Dê uma checada no repositório (se for inserir um novo, favor preencher o Repo 🥶)
 
 > Desenho de primers e sondas para HPV usando múltiplos programas [#HPVPrimersSondas](https://github.com/ACMElab-Fioce/HPVprimersprobes.git). [@allyssonallan]
