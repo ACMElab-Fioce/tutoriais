@@ -71,3 +71,5 @@ https://github.com/ACMElab-Fioce/tutoriais/issues/8 Executar Viralflow 1.0.0 Clu
 > Painel Acme: utilitários para o ACME lab [#PainelAcme](https://github.com/ACMElab-Fioce/PainelAcme.git). [suzana-porto]
 
 > Algoritmos de análise de dados e construção de gráficos no R [#R] (https://github.com/ACMElab-Fioce/Rscripts.git). [@cleberaksenen]
+
+> Tipos de Arquivos na Bioinformática () [@rayratargdy]
