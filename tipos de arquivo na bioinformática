@@ -1,0 +1,112 @@
+NGS - NEXT GENERATION SEQUENCE 
+
+A ideia consistia em marcar a diferença entre o método de sequenciamento de Sanger e esta nova abordagem, que nasceu da união de várias tecnologias
+disponíveis a partir da década de 1980. O NGS é o produto da junção entre tecnologias de purificação de nucleotídeos com beads magnéticas, PCR em 
+emulsão e nucleotídeos marcados com diferentes fluorescências. Uma outra inovação importante do NGS é a possibilidade de sequenciar centenas de 
+amostras simultaneamente em uma mesma reação. Isso ocorre pois no NGS  a separação de amostras acontece por meio de pequenos oligonucleotídeos específicos 
+chamados indexes, ou popularmente "barcode", incorporados aos fragmentos de cada amostra gerados no início do processo. Como todos os fragmentos de uma mesma
+amostra tem seu "barcode" específico, centenas de amostras podem ser sequenciadas em paralelo, identificadas na etapa final do processo, na análise dos dados
+produzidos na corrida, num passo chamado desmultiplexação.
+
+   Algumas características diferenciam este sequenciamento dos anteriores:
+
+    -Geração de milhões de leituras curtas em paralelo;
+    -Processo mais rápido em comparação aos de primeira geração;
+    -Baixo custo;
+    -Não necessita de eletroforese;
+
+Os maiores erros deste método é dado por inserção e deleção de bases. 
+
+_________________________________________________________________________
+
+
+ARQUIVOS DE SEQUENCIAMENTO 
+
+**BCL .bcl → (stands for) Binary Base Call**
+Os arquivos BCL são os arquivos de dados brutos gerados pelos sequenciadores Illumina. 
+Este formato não é geralmente manipulado diretamente, sendo apenas um intermediário na pipeline de base calling e análise. 
+A tecnologia de sequenciamento da Illumina utiliza geração de cluster e sequenciamento por síntese química para sequenciar 
+milhões ou bilhões de clusters em uma célula de fluxo, dependendo da plataforma de sequenciamento. Durante o sequenciamento, 
+para cada cluster, as chamadas de base (base calling) são feitas e armazenadas para cada ciclo de sequenciamento pelo software
+Real-Time Analysis (RTA). O RTA armazena os dados de chamada de base na forma de arquivos de chamada de base individuais (ou BCL). 
+Quando o sequenciamento for concluído, as chamadas de base nos arquivos BCL deverão ser convertidas em dados de sequência. 
+Este processo é chamado de conversão de BCL em FASTQ. O FASTQ é um formato de arquivo de sequência baseado em texto gerado a partir
+do arquivo BCL que armazena dados de sequência bruta e índices de qualidade. 
+EM RESUMO: O software Real Time Analysis (RTA) grava a base e a confiança para cada chamada como um índice de qualidade em arquivos 
+de base calling (.bcl). Como o nome indica, isso é feito em tempo real, ou seja, para cada ciclo da execução do sequenciamento, é adicionada 
+uma chamada para cada local identificado na célula de fluxo (blocos e pistas). Os arquivos BCL são armazenados em formato binário e representam 
+a saída de dados brutos de uma execução de sequenciamento.
+
+**FASTQ .fastq ou .fq**
+As leituras de NGS (Next Generation Sequence) geralmente 
+são geradas como arquivos de texto em formato FASTQ. Este 
+formato foi proposto para oferecer métricas de qualidade das
+sequências geradas pelo sequenciamento. O formato usa quatro
+linhas para representar cada sequência (chamada aqui de "read"
+ou fragmento), empilhadas umas sobre as outras em arquivos de
+texto FASTQ sequenciais. Como centenas de amostras podem ser 
+sequenciadas simultaneamente, uma sequência de indexadores 
+(pequenos fragmentos complementares) são utilizados para 
+diferenciações, gerando arquivos FASTQ específicos para cada 
+amostra. Após um experimento de sequenciamento da Illumina, 
+um arquivo FASTQ é gerado para cada amostra na biblioteca, 
+caso o tipo de sequenciamento single-end tenha sido usado. 
+Neste modo, apenas um lado do fragmento de DNA é sequenciado. 
+Se foi paired-end, dois arquivos são gerados, um para cada
+extremidade da read. Em geral, o método "paired-end" tem sido
+usado para sequenciamento de SARS-CoV-2. 
+
+Em um FASTQ, cada uma das 4 linhas representará uma única leitura de sequência. A figura apresentada abaixo demonstra essas quatro linhas com breves explicações. 
+
+  -Linha 1: começa com o caractere "@", seguida por um identificador de sequência e uma descrição
+  com metadados contendo informações de lote, data e local da amostra. Seguido por uma sequência 
+  de 10 bases indicando o index específico. 
+
+  -Linha 2: representa as letras da sequência de DNA/RNA.
+
+  -Linha 3: começa com um caractere "+"; ele marca o fim da sequência e é, opcionalmente, seguido
+  pelo mesmo identificador da linha 1.
+
+  -Linha 4: codifica os valores de qualidade para a sequência na linha 2 e deve conter o mesmo número
+  de símbolos que as letras da sequência. Cada letra corresponde a um índice de qualidade. O padrão no 
+  campo é usar pontuações de qualidade chamadas de "phred score". Essas pontuações representam a probabilidade
+  (em escala logarítmica) do nucleotídeo sequenciado naquela posição da sequência ter sido identificado de forma correta.
+  Quanto maior a pontuação, mais provável que o nucleotídeo tenha sido identificado corretamente. Cada valor de pontuação 
+  é representado por um caractere/símbolo diferente. Por exemplo, um "phred score" de 10 significa que há uma probabilidade
+  de 1 em 10 de haver erro na identificação do nucleotídeo. Um "phred-score" de 30 significa uma probabilidade de 1 em 1000
+  (Q>30 = qualidade boa). Finalmente, a linha de qualidade que novamente pode ser embrulhada. Como discutido acima, eles usam 
+  um subconjunto dos caracteres imprimíveis ASCII (no máximo ASCII 33-126 inclusive) com um mapeamento de deslocamento simples.
+  Fundamentalmente, após a concatenação (remoção de quebras de linha), a string de qualidade deve ser igual em comprimento à
+  string de sequência.	
+
+
+
+
+**FASTA .fasta**
+O FASTA foi introduzido pela primeira vez no software FASTA, e o FASTQ foi originalmente desenvolvido no Wellcome Trust Sanger Institute. Manipulações comuns do arquivo FASTA/Q incluem conversão, pesquisa, filtragem, exclusão de duplicações, divisão, embaralhamento e amostragem de amostras. Ao visualizar a imagem adquirida no banco de dados do NCBI, observe que a cada sequência o FASTA há um símbolo “>” que indica o início de uma sequência, os números de identificação, seguido pela espécie (Homo Sapiens) e a proteína (glucosylceramide) beta (GBA)). Neste caso, também podemos observar a presença de variantes indicado por “transcript variant 1” e que é uma sequência de mRNA. Em seguida é disponibilizada a sequência.
+No entanto, o formato FASTA tem várias deficiências amplamente reconhecidas.
+Os arquivos FASTA podem não conter metadados sobre a sequência: origem, data de produção, principais suposições e parâmetros usados em sua produção etc. A linha de descrição de cada entrada é um texto livre não estruturado no qual diferentes produtores de arquivos inserem metadados de nível de entrada de várias maneiras. Desse modo, pacotes de software não conseguem interpretar os dados de forma consistente; até mesmo o identificador de uma única proteína está sujeito a variações de análise, dificultando o mapeamento de proteínas em diferentes versões de um arquivo FASTA.
+
+
+_________________________________________________________________________
+
+ALINHAMENTO 
+
+O alinhamento das leituras de cada amostra gera um arquivo em formato SAM.      
+O formato SAM é um arquivo de texto delimitado por tabulações que contém 
+informações para cada leitura individual e seu alinhamento ao genoma. O 
+arquivo SAM começa com um cabeçalho, usado para descrever a fonte de dados, 
+sequência de referência e método de alinhamento. Após o cabeçalho encontra-se 
+a seção de alinhamento. Cada linha que segue corresponde às informações de 
+alinhamento para cada leitura mapeada. A versão compactada do SAM, otimizada 
+para uso pelo computador, é chamada de arquivo BAM. Usamos esta versão para
+reduzir o tamanho e permitir a indexação, viabilizando acesso computacional 
+eficiente.
+
+Para representarmos as anotações do genoma, como localização de genes, 
+precisamos de outro formato de arquivo. Anotações de genoma geralmente
+são representadas como um arquivo GFF (General Feature Format). 
+O formato GFF fornece uma maneira flexível de definir as linhas de dados
+que são exibidas em uma trilha de anotação, representando as coordenadas 
+genômicas dos genes. O número de campos por linha deve ser consistente em 
+qualquer conjunto único de dados em uma trilha de anotação.
