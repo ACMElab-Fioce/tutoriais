@@ -72,4 +72,4 @@ https://github.com/ACMElab-Fioce/tutoriais/issues/8 Executar Viralflow 1.0.0 Clu
 
 > Algoritmos de análise de dados e construção de gráficos no R [#R] (https://github.com/ACMElab-Fioce/Rscripts.git). [@cleberaksenen]
 
-> Tipos de Arquivos na Bioinformática (https://github.com/ACMElab-Fioce/tutoriais/issues/10). [@rayratargdy]
+> Tipos de Arquivos na Bioinformática [#BionfoFiles] (https://github.com/ACMElab-Fioce/tutoriais/issues/10). [@rayratargdy]
