@@ -26,6 +26,8 @@ https://github.com/ACMElab-Fioce/tutoriais/issues/10 Tipos de Arquivo da Bioinfo
 
 https://github.com/ACMElab-Fioce/tutoriais/issues/11 Tutorial de depósito no GISAID
 
+https://github.com/ACMElab-Fioce/tutoriais/issues/12 Links de definição de novas variantes pelo PANGO
+
 ## 🔨 Dê uma checada no repositório (se for inserir um novo, favor preencher o Repo 🥶)
 
 > Desenho de primers e sondas para HPV usando múltiplos programas [#HPVPrimersSondas](https://github.com/ACMElab-Fioce/HPVprimersprobes.git). [@allyssonallan]
