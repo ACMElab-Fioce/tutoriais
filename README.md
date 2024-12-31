@@ -83,3 +83,5 @@ https://github.com/ACMElab-Fioce/tutoriais/issues/12 Links de definição de nov
 > Algoritmos de análise de dados e construção de gráficos no R [#R] (https://github.com/ACMElab-Fioce/Rscripts.git). [@cleberaksenen]
 
 > Tipos de Arquivos na Bioinformática [#BionfoFiles] (https://github.com/ACMElab-Fioce/tutoriais/issues/10). [@rayratargdy]
+
+> Executando o IRMA dentro do Carlos Chagas [#BionfoFiles] (https://github.com/ACMElab-Fioce/tutoriais/issues/10). [@cleberaksenen]
