@@ -84,4 +84,3 @@ https://github.com/ACMElab-Fioce/tutoriais/issues/12 Links de definição de nov
 
 > Tipos de Arquivos na Bioinformática [#BionfoFiles] (https://github.com/ACMElab-Fioce/tutoriais/issues/10). [@rayratargdy]
 
-> Executando o IRMA dentro do Carlos Chagas [#BionfoFiles] (https://github.com/ACMElab-Fioce/tutoriais/issues/10). [@cleberaksenen]
