@@ -32,7 +32,6 @@ https://github.com/ACMElab-Fioce/tutoriais/issues/12 Links de definição de nov
 
 [https://github.com/ACMElab-Fioce/tutoriais/issues/14](https://github.com/ACMElab-Fioce/tutoriais/issues/14) Executar Bactopia local
 
-[https://github.com/ACMElab-Fioce/tutoriais/issues/16](https://github.com/ACMElab-Fioce/tutoriais/issues/16) Test
 
 ## 🔨 Dê uma checada no repositório (se for inserir um novo, favor preencher o Repo 🥶)
 
