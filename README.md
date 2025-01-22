@@ -85,3 +85,5 @@ https://github.com/ACMElab-Fioce/tutoriais/issues/12 Links de definição de nov
 
 > Tipos de Arquivos na Bioinformática [#BionfoFiles] (https://github.com/ACMElab-Fioce/tutoriais/issues/10). [@rayratargdy]
 
+> Análises realizadas para o projeto Revirae [#Revirae] (https://github.com/ACMElab-Fioce/revirae). [@cleberaksenen]
+
